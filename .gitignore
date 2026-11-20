@@ -1,0 +1,5 @@
+.netlify/
+.DS_Store
+__pycache__/
+# added by another session, not part of the hub
+reports/

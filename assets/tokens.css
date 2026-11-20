@@ -1,0 +1,18 @@
+/* Starman colour and shape tokens. Source of truth: the Color chapter of the brand hub. */
+:root {
+  /* neutrals */
+  --void: #08080c; --carbon: #131318; --graphite: #23232c; --haze: #8d8e9b; --moon: #f4f3ee; --mist: #e3e6f4;
+  /* colour */
+  --electric: #2947ff; --ultra: #1828d6; --abyss: #05061a; --sky: #6c8aff;
+  --sun: #fff45c; --cream: #fffbd6; --nova: #d42a72; --plum: #2c0720;
+  /* gradients */
+  --g-night: linear-gradient(180deg, #05061a, #1828d6 62%, #6c8aff);
+  --g-deep: radial-gradient(120% 95% at 50% 0%, #2947ff 0%, #1828d6 34%, #070b3f 74%, #05061a 100%);
+  --g-nova: radial-gradient(75% 65% at 50% 55%, #2c0720 0%, #5e0f3c 48%, #d42a72 100%);
+  --g-sun: linear-gradient(160deg, #fff45c, #fffbd6);
+  /* data: default lap and trace colours, in order; the user can change them */
+  --data-1: #3dff8b; --data-2: #ff3d50; --data-3: #f4f3ee; --data-4: #4f95ff;
+  --data-5: #35e6ff; --data-6: #ff58b4; --data-7: #ffae3d; --data-8: #a986ff;
+  /* shape */
+  --r-lg: 28px; --r-md: 18px; --r-pill: 999px;
+}
